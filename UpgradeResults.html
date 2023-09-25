@@ -1,0 +1,139 @@
+<html> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>  <body>
+<center><H2><font FACE="ARIAL" >Upgrade Results</font></H2></center><br><font FACE"ARIAL" size="3">DBUA failed to upgrade the database or some of its components. See upgrade detail.</font><br><br><table BORDER="0" WIDTH="100%" NOSAVE>
+<tr>
+<TH ALIGN="LEFT" BGCOLOR="#C0C0C0" ><FONT FACE="ARIAL" COLOR="#000000"  SIZE="2"></FONT></TH>
+<TH ALIGN="LEFT" BGCOLOR="#C0C0C0" ><FONT FACE="ARIAL" COLOR="#000000"  SIZE="2">Source Database</FONT></TH>
+<TH ALIGN="LEFT" BGCOLOR="#C0C0C0" ><FONT FACE="ARIAL" COLOR="#000000"  SIZE="2">Target Database</FONT></TH>
+</tr>
+<tr>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+<b>Name:</b></FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+pri2</FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+pri2</FONT></TD>
+</tr>
+<tr>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+<b>Release:</b></FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+11.2.0.4.0</FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+19.0.0.0.0</FONT></TD>
+</tr>
+<tr>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+<b>Oracle Home:</b></FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+/u02/app/oracle/product/11.2.0/dbhome_1</FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+/u02/app/oracle/product/19.0.0.0/dbhome_2</FONT></TD>
+</tr>
+</table>
+<br><H3> Database Instances</H3><br>The database instance(s) status after the upgrade is as it follows:<br><table BORDER="0" WIDTH="100%" NOSAVE>
+<tr>
+<TH ALIGN="LEFT" BGCOLOR="#C0C0C0" ><FONT FACE="ARIAL" COLOR="#000000"  SIZE="2">Instance Name</FONT></TH>
+<TH ALIGN="LEFT" BGCOLOR="#C0C0C0" ><FONT FACE="ARIAL" COLOR="#000000"  SIZE="2">Node Name</FONT></TH>
+<TH ALIGN="LEFT" BGCOLOR="#C0C0C0" ><FONT FACE="ARIAL" COLOR="#000000"  SIZE="2">Status</FONT></TH>
+</tr>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+DBDEM11G1</FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+exacc06-vm01c03</FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+Inactive</FONT></TD>
+</tr><TD ><FONT FACE="ARIAL" SIZE="2">
+DBDEM11G2</FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+exacc06-vm02c03</FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+Inactive</FONT></TD>
+</tr></table>
+<br><H3> Upgrade Details</H3><font FACE="ARIAL" size="2">The following summary lists the steps performed during the upgrade process. Log files for all the steps, as well as this summary, are available at "/u02/app/oracle/cfgtoollogs/pri2/upgrade/2023-09-23092051/pri2".</font><br><br><table BORDER="0" WIDTH="100%" NOSAVE>
+<tr>
+<TH ALIGN="LEFT" BGCOLOR="#C0C0C0" ><FONT FACE="ARIAL" COLOR="#000000" SIZE="2">Step Name</FONT></TH>
+<TH ALIGN="LEFT" BGCOLOR="#C0C0C0" ><FONT FACE="ARIAL" COLOR="#000000" SIZE="2">Log File Name</FONT></TH>
+<TH ALIGN="LEFT" BGCOLOR="#C0C0C0" ><FONT FACE="ARIAL" COLOR="#000000" SIZE="2">Status</FONT></TH>
+<TH ALIGN="LEFT" BGCOLOR="#C0C0C0" ><FONT FACE="ARIAL" COLOR="#000000" SIZE="2">Time</FONT></TH>
+</tr>
+<tr>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+Database Backup</FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+Backup.log</FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+Successful</FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+0:00:00</FONT></TD>
+</tr><tr>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+Pre Upgrade</FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+PreUpgrade.log</FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+Successful</FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+0:01:10</FONT></TD>
+</tr><tr>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+Configure Database in 19.0.0.0.0 Oracle Home</FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+Migrate_Sid.log</FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+Successful</FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+0:00:13</FONT></TD>
+</tr><tr>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+Database Components Upgrade</FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+Oracle_Server.log</FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+Failed</FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+0:00:00</FONT></TD>
+</tr><tr>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+Total Upgrade Time</FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+</FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+</FONT></TD>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+0:01:23</FONT></TD>
+</tr></table>
+<br><H3> Step Execution Information:</H3><table BORDER="0" WIDTH="100%" NOSAVE>
+<tr><H4><FONT FACE="ARIAL"  SIZE="4">Database Backup</FONT></H4></tr><tr><TD ><FONT FACE="ARIAL" SIZE="2">
+The Database can be restored by running the following script "/u02/app/oracle/cfgtoollogs/pri2/upgrade/2023-09-23092051/pri2/DBDEM11G1_restore.sh" from the backup location.
+NOTE: This operation will remove all the upgrade changes made by the Database Upgrade Assistant.</FONT></TD>
+</tr><tr><H4><FONT FACE="ARIAL"  SIZE="4">Database Components Upgrade</FONT></H4></tr><tr><TD ><FONT FACE="ARIAL" SIZE="2">
+[catupgrd0.log] 
+ORA-03113: end-of-file on communication channel
+</FONT></TD>
+</tr><tr><TD ><FONT FACE="ARIAL" SIZE="2">
+[catupgrd0.log] 
+ORA-03114: not connected to ORACLE
+</FONT></TD>
+</tr><tr><TD ><FONT FACE="ARIAL" SIZE="2">
+Error in Process: /u02/app/oracle/product/19.0.0.0/dbhome_2/perl/bin/perl</FONT></TD>
+</tr></table>
+<br><H3> Initialization Parameter changes</H3><table BORDER="0" WIDTH="100%" NOSAVE>
+<tr>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+The following changes have been made in the initialization parameters:</FONT></TD>
+</tr></table>
+<table BORDER="0" WIDTH="100%" NOSAVE>
+<tr>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+<b>Parameters Removed:</b>
+</FONT></TD>
+</tr></table>
+<table BORDER="0" WIDTH="100%" NOSAVE>
+<tr>
+<TH ALIGN="LEFT" BGCOLOR="#C0C0C0" ><FONT FACE="ARIAL" COLOR="#000000"  SIZE="2">Name</FONT></TH>
+</tr>
+<tr>
+<TD ><FONT FACE="ARIAL" SIZE="2">
+parallel_adaptive_multi_user</FONT></TD>
+</tr></table>
+<br></body></html>
